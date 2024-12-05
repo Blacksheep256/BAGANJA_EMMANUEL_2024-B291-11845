@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+.navbar-dark-gray {
+    background-color: #333333;
+  
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+}
+
+.card-header {
+    text-align: center;
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-size: 40px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #f8f9fa !important;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+
+.footer {
+    background-color: #333333;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    margin: 0 15px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #007bff;
+}
+
+.footer a i {
+    transition: transform 0.3s ease;
+}
+
+.footer a:hover i {
+    transform: scale(1.1);
+}
+
+
+.btn-primary {
+    transition: all 0.3s ease;
+    background-color: #007bff;
+   
+    color: #fff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+    background-color: #0056b3;
+    
+    color: #fff;
+   
+    border-color: #004085;
+    
+}
+       
+        .card-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+       
+        .card {
+            width: 25rem;
+            margin: 20px;
+        }
+
+        
+        .card-img-top {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin: 0 auto;
+        }
